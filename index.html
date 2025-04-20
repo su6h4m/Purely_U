@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PurelyU - Premium Skincare Products</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">
+          <span class="logo-accent">Purely</span>U
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="icon-button" aria-label="Shopping cart">
+            <i class="fas fa-shopping-bag"></i>
+          </button>
+          <button class="button primary-button desktop-only">Sign In</button>
+          <button class="menu-toggle mobile-only" aria-label="Toggle menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav" id="mobileNav">
+        <nav class="mobile-nav-content">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="products.html" class="nav-link">Products</a>
+          <a href="about.html" class="nav-link">About</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button class="button primary-button full-width">Sign In</button>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Natural Beauty, <span class="accent">Radiant Skin</span>
+            </h1>
+            <p class="hero-description">
+              Discover our premium skincare products made with natural ingredients to help you achieve healthy,
+              glowing skin.
+            </p>
+            <div class="hero-buttons">
+              <a href="#featured-products" class="button primary-button">Explore Products</a>
+              <a href="about.html" class="button outline-button">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="https://placehold.co/500x500" alt="Skincare products" width="500" height="500">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured-products" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Products</h2>
+          <p class="section-description">Our most popular skincare solutions</p>
+        </div>
+        <div class="products-grid">
+          <!-- Product 1 -->
+          <div class="product-card">
+            <a href="product-detail.html?id=hydrating-serum" class="product-image-container">
+              <div class="product-image">
+                <img src="https://placehold.co/400x400" alt="Hydrating Serum" width="400" height="400">
+              </div>
+            </a>
+            <div class="product-info">
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="reviews-count">(128)</span>
+              </div>
+              <a href="product-detail.html?id=hydrating-serum">
+                <h3 class="product-title">Hydrating Serum</h3>
+              </a>
+              <p class="product-description">Intense hydration for all skin types</p>
+              <div class="product-footer">
+                <span class="product-price">$39.99</span>
+                <a href="product-detail.html?id=hydrating-serum" class="button small outline-button">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="product-card">
+            <a href="product-detail.html?id=vitamin-c-cream" class="product-image-container">
+              <div class="product-image">
+                <img src="https://placehold.co/400x400" alt="Vitamin C Brightening Cream" width="400" height="400">
+              </div>
+            </a>
+            <div class="product-info">
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="reviews-count">(94)</span>
+              </div>
+              <a href="product-detail.html?id=vitamin-c-cream">
+                <h3 class="product-title">Vitamin C Brightening Cream</h3>
+              </a>
+              <p class="product-description">Brightens and evens skin tone</p>
+              <div class="product-footer">
+                <span class="product-price">$45.99</span>
+                <a href="product-detail.html?id=vitamin-c-cream" class="button small outline-button">View Details</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="product-card">
+            <a href="product-detail.html?id=night-repair-cream" class="product-image-container">
+              <div class="product-image">
+                <img src="https://placehold.co/400x400" alt="Night Repair Cream" width="400" height="400">
+              </div>
+            </a>
+            <div class="product-info">
+              <div class="product-rating">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <span class="reviews-count">(76)</span>
+              </div>
+              <a href="product-detail.html?id=night-repair-cream">
+                <h3 class="product-title">Night Repair Cream</h3>
+              </a>
+              <p class="product-description">Repairs and rejuvenates while you sleep</p>
+              <div class="product-footer">
+                <span class="product-price">$49.99</span>
+                <a href="product-detail.html?id=night-repair-cream" class="button small outline-button">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section-footer">
+          <a href="products.html" class="button outline-button">
+            View All Products
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="section light-bg">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Why Choose Our Products</h2>
+          <p class="section-description">The benefits that set our skincare line apart</p>
+        </div>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <h3 class="benefit-title">100% Natural</h3>
+            <p class="benefit-description">
+              All our products are made with natural ingredients, free from harmful chemicals.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-box"></i>
+            </div>
+            <h3 class="benefit-title">Cruelty-Free</h3>
+            <p class="benefit-description">
+              We never test on animals and are committed to ethical production practices.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="benefit-title">Dermatologist Tested</h3>
+            <p class="benefit-description">
+              Our formulas are tested and approved by dermatologists for all skin types.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">What Our Customers Say</h2>
+          <p class="section-description">Real results from real people</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "I've been using the Hydrating Serum for a month now, and my skin has never looked better. It's so
+              moisturizing without feeling greasy!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://placehold.co/40x40" alt="Customer" width="40" height="40">
+              </div>
+              <div class="author-info">
+                <p class="author-name">Sarah J.</p>
+                <p class="author-title">Verified Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "The Vitamin C Cream has completely transformed my skin. My dark spots have faded, and my complexion
+              is so much brighter!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://placehold.co/40x40" alt="Customer" width="40" height="40">
+              </div>
+              <div class="author-info">
+                <p class="author-name">Michael T.</p>
+                <p class="author-title">Verified Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              "I love that these products are all-natural. The Night Repair Cream has helped reduce my fine lines
+              and my skin feels so soft in the morning!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">
+                <img src="https://placehold.co/40x40" alt="Customer" width="40" height="40">
+              </div>
+              <div class="author-info">
+                <p class="author-name">Emily R.</p>
+                <p class="author-title">Verified Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3 class="footer-title">
+            <span class="logo-accent">Purely</span>U
+          </h3>
+          <p class="footer-description">
+            Premium skincare products made with natural ingredients for healthy, glowing skin.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-title">Shop</h3>
+          <ul class="footer-links">
+            <li><a href="products.html">All Products</a></li>
+            <li><a href="products.html?category=cleansers">Cleansers</a></li>
+            <li><a href="products.html?category=serums">Serums</a></li>
+            <li><a href="products.html?category=moisturizers">Moisturizers</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-title">Company</h3>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="careers.html">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3 class="footer-title">Support</h3>
+          <ul class="footer-links">
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="shipping.html">Shipping & Returns</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> PurelyU. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
